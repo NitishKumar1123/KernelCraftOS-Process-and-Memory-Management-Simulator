@@ -1,8 +1,8 @@
-## OS Simulator Project
+# OS Simulator Project
 Overview
 The OS Simulator is a C++ project designed to simulate core functionalities of an Operating System. It includes features such as process management, CPU scheduling, memory management (paging and segmentation), and a basic file system. The simulator is a great educational tool for understanding how operating systems manage resources and processes.
 
-## Table of Contents
+# Table of Contents
 Features
 Installation
 Usage
@@ -10,28 +10,28 @@ Directory Structure
 Future Enhancements
 License
 Features
-# 1. Process Management
+## 1. Process Management
 Simulates process lifecycle (READY, RUNNING, WAITING, TERMINATED).
 Supports operations like creating and terminating processes.
-# 2. CPU Scheduling Algorithms
+## 2. CPU Scheduling Algorithms
 First Come, First Serve (FCFS)
 Shortest Job First (SJF)
 Shortest Remaining Time First (SRTF)
 Round Robin (RR)
 Priority Scheduling
-# 3. Memory Management
+## 3. Memory Management
 Implements paging with FIFO/LRU page replacement.
 Displays current memory allocation and page states.
-# 4. Segmentation
+## 4. Segmentation
 Simulates segmentation where memory is divided into logical segments like Code, Data, etc.
-# 5. File System
+## 5. File System
 Supports basic file operations like creating, reading, writing, and deleting files.
 Installation
 Prerequisites
 C++ Compiler (GCC/Clang/MinGW/MSVC)
 Make (for building the project using the provided Makefile)
 Steps
-# Clone the repository:
+## Clone the repository:
 
 git clone https://github.com/yourusername/os_simulator.git
 cd os_simulator
@@ -46,7 +46,7 @@ Usage
 Running the Simulator
 After building the project, run the os_simulator executable. The simulator will ask for various inputs based on the feature you are simulating (process scheduling, memory management, etc.).
 
-# Example Simulation
+## Example Simulation
 To run an example simulation:
 
 Process Scheduling: You can input multiple processes with different arrival times, burst times, and priorities. Then, choose from the available scheduling algorithms (FCFS, SJF, Round Robin, etc.) to simulate the process scheduling.
@@ -55,7 +55,7 @@ Memory Management: Allocate pages for different processes and see how paging is 
 
 File System: Create files, write data to files, read from files, and delete files.
 
-# Directory Structure
+## Directory Structure
 
 OS_Simulator/
 ├── src/
@@ -82,7 +82,7 @@ OS_Simulator/
 └── README.md                   # This README file
 
 
-# Future Enhancements
+## Future Enhancements
 Here are some improvements and additional features planned for future versions:
 
 Multi-threading Support: Add real multi-threading with synchronization mechanisms like semaphores and mutexes.
