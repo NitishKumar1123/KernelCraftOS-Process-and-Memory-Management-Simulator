@@ -39,8 +39,6 @@ Compile the project using the Makefile:
 
 Run the executable:
 
-bash
-Copy code
 ./os_simulator
 Usage
 Running the Simulator
@@ -56,7 +54,7 @@ Memory Management: Allocate pages for different processes and see how paging is 
 File System: Create files, write data to files, read from files, and delete files.
 
 ## Directory Structure
-
+```
 OS_Simulator/
 ├── src/
 │   ├── main.cpp                # Main program file
@@ -80,7 +78,7 @@ OS_Simulator/
 ├── docs/                       # Documentation files
 ├── Makefile                    # Build script
 └── README.md                   # This README file
-
+```
 
 ## Future Enhancements
 Here are some improvements and additional features planned for future versions:
